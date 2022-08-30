@@ -18,18 +18,22 @@
 }
 
 upper = \relative c' {
-  \clef bass
+  \clef treble
   \key aes \major
   \time 12/8
 
-  c4. aes4 ees8 c'4 ees,8 bes'4 ees,8 |
-  aes4. aes4 ees8 ees'4 ees,8 aes4 ees8 | 
-  <aes f'>4. <aes ees'>4. <aes ees'>4. <aes des>4 aes8 |
-  <aes c>4. aes4 ees8 aes4 ees8 aes4. |
-  <aes c>4. aes4 ees8 <f aes des>4. <f aes ees'> |
+  c4. aes c bes |
+  aes aes ees' aes,4 aes8 |
+  <aes des f>4. <aes ees'>4. <aes ees'>4. <aes des>4 aes8 |
+  <aes c>4. aes aes aes |
+  <aes c>4. aes <f aes des>4. <f aes ees'> |
   <aes des f> aes <aes c ees> aes |
   des bes c d |
-  <g, bes ees>4. bes~ bes2. |
+  <g, bes ees>4. <g bes>~ <g bes>2. |
+  c4. aes c bes |
+  aes4. aes4.  <aes ees'>4. aes4. | 
+  <f aes ees'> <f aes des> <f aes des> <f c'>
+  <g bes> g~ g2. | 
 }
 
 lower = \relative c {
@@ -37,13 +41,18 @@ lower = \relative c {
   \key aes \major
   \time 12/8
 
-  aes8 ees' aes r ees r r ees8 r r ees8 r |
-  aes,8 ees' aes r ees r r ees r r ees r |
-  des, aes' des~ des des aes~ aes des aes~ aes des4 |
-  aes8 ees' aes r ees r r ees4~ ees4.|
-  aes,8 ees' aes r ees r des,8 aes' des~ des des aes |
+  aes8 ees' aes r ees aes~ aes ees8 aes~ aes ees8 aes |
+  aes,8 ees' aes r ees aes~ aes ees8 aes r ees4 |
+  des,8 aes' des~ des des aes~ aes des aes~ aes des4 |
+  aes8 ees' aes r ees aes r ees aes r4.|
+  aes,8 ees' aes r ees aes des,,8 aes' des~ des des aes |
   des, aes' des~ des des aes aes ees' aes~ aes ees aes, |
-  ees bes' ees~ ees ees bes
+  ees bes' ees~ ees ees bes~ bes ees bes~ bes ees bes |
+  ees, bes' ees~ ees ees bes ees,2. |
+  aes8 ees' aes r ees aes~ aes ees8 aes~ aes ees8 aes |
+  f, c' f~ f f c~ c f c~ c f c |  
+  des, aes'des~ des des aes~ aes des aes ~ aes des aes |
+  ees bes' ees~ ees ees bes ees,2. |
 }
 
 \score {
