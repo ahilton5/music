@@ -18,7 +18,7 @@
 }
 
 upper = \relative c' {
-  \clef treble
+  \clef bass
   \key aes \major
   \time 12/8
 
@@ -34,6 +34,10 @@ upper = \relative c' {
   aes4. aes4.  <aes ees'>4. aes4. | 
   <f aes ees'> <f aes des> <f aes des> <f c'>
   <g bes> g~ g2. | 
+  <f bes>4. f4 f8 c'4 f,8 des'4 f,8 |
+  <g c>4. <g bes> <f aes> <f des'> |
+  <g c>4. ees <g bes> ees4 ees8 |
+  <c ees aes>4 c8 ees c~ c~ c2. |
 }
 
 lower = \relative c {
@@ -53,6 +57,10 @@ lower = \relative c {
   f, c' f~ f f c~ c f c~ c f c |  
   des, aes'des~ des des aes~ aes des aes ~ aes des aes |
   ees bes' ees~ ees ees bes ees,2. |
+  des8 aes' des~ des des4~ des8 des4~ des8 des4 |
+  ees,8 bes' ees~ ees ees bes des, aes' des~ des4. |
+  ees,8 bes' ees~ ees bes ees~ ees ees bes~ bes bes4 |
+  aes,8 aes'~ aes~ aes4 aes8 aes,2. |
 }
 
 \score {
