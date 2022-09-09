@@ -23,7 +23,7 @@ upper = \relative c' {
   \time 12/8
 
   % First verse
-  c4. aes c bes |
+  c4. \mp aes c bes |
   aes aes ees' aes,4 aes8 |
   <aes des f>4. <aes ees'>4. <aes ees'>4. <aes des>4 aes8 |
   <aes c>4. aes aes aes |
@@ -38,17 +38,30 @@ upper = \relative c' {
   <f bes>4. f4 f8 c'4 f,8 des'4 f,8 |
   <g c>4. <g bes> <f aes> <f des'> |
   <g c>4. ees <g bes> ees4 ees8 |
-  <c ees aes>4 ees8 aes4 ees8 aes4 ees8 aes4 ees8 |
+  <c ees aes>4 ees8 \sp \<  aes4 ees8 aes4 ees8 aes4 ees8   \! |
 
   % Second verse
   \key e \major
-  <b e gis>4 b8 e4 b8 <e gis>4 b8 <dis fis>4 b8 |
+  <b e gis>4 \mf b8 e4 b8 <e gis>4 b8 <dis fis>4 b8 |
   <b e>4 b8 e4 b8 b'4 b,8 e4 b8 |
   <e a cis>4 e8 <e b'>4 e8 <e b'>4 e8 <e a>4 e8 |
   <e gis>4 b8 e4 b8 e4 b8 e4 b8 |
   <b e gis>4 b8 e4 b8 <e a>4 e8 b'4 e,8 |
   <e a cis>4 e8 a4 e8 <e gis b>4 b8 e4 b8 |
   <e a>4 cis8 fis4 cis8 gis'4 cis,8 ais'4 cis,8 | 
+  <dis fis b>4. <dis fis>4.~ <dis fis>2. |
+  <e gis>4. e <e gis> fis |
+  e e b' e, |
+  <e b'>4 e8 a4 e8 a4 e8 gis4 e8 |
+  <dis fis>4. dis4.~ dis2. |
+  <cis fis>4. cis4 cis8 gis'4 cis,8 a'4 cis,8 |
+  <dis gis>4. <dis fis> e4 cis8 a'4. |
+  \override TextSpanner.bound-details.left.text = "rit."
+  <dis, gis>2.\startTextSpan <dis fis> |
+  e1. \> \stopTextSpan 
+  
+  % Interlude
+  e4. \mp e e dis4 dis8 |
 }
 
 lower = \relative c {
@@ -83,6 +96,15 @@ lower = \relative c {
   e,8 e'4~ e8 e4 a,8 a'4~ a8 a4 | 
   a,8 a'4~ a8 a4 e,8 e'4~ e8 e4 | 
   a,8 a'4~ a8 a4~ a8 a4~ a8 a4 |
+  b,8 fis' b~ b b fis b,2. | 
+  e8 b' e r b e r b e r b e |
+  cis, gis' cis~ cis gis cis~ cis gis cis~ cis cis gis | 
+  a,8 a'4~ a8 a4~ a8 a4~ a8 a4 |
+  b,8 fis' b~ b b fis b,2. | 
+  a8 a' a,~ a a'4~ a8 a4~ a8 a4 |
+  b,8 b' b,~ b b' b, a a'4~ a4. |
+  b,8 b' b, b'-> b, b' b,8 b' b, b'-> b, b' |
+  cis,4. gis' cis2. | 
 }
 
 \score {
