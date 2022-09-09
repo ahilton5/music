@@ -61,7 +61,16 @@ upper = \relative c' {
   e1. \> \stopTextSpan 
   
   % Interlude
-  e4. \mp e e dis4 dis8 |
+  \override TextSpanner.bound-details.left.text = "a tempo"
+  e4.\startTextSpan \mp e \stopTextSpan e dis4 dis8 |
+  e4. e e fis |
+  <e gis> <e gis> <e gis> <e b'>4 e8 |
+  <dis fis>4. \< <dis fis> <dis fis> e4 dis8 |
+  <cis e>4. \mf <cis e> e dis4 dis8 |
+  <cis e>4. <cis e> e fis4 fis8 |
+  <b, e gis>4 b8 <e gis>4 b8 <e gis>4 b8 b'4 e,8 |
+  <dis fis>4. \< <dis fis> <dis fis> e4 dis8 |
+  <gis cis e>4. \f <gis cis e> <gis cis e> <gis dis'>4 <gis dis'>8 |
 }
 
 lower = \relative c {
@@ -105,6 +114,19 @@ lower = \relative c {
   b,8 b' b,~ b b' b, a a'4~ a4. |
   b,8 b' b, b'-> b, b' b,8 b' b, b'-> b, b' |
   cis,4. gis' cis2. | 
+
+  % Interlude
+  cis,8 gis' cis~ cis gis cis~ cis cis gis~ gis gis4 | 
+  a,8 a' a,~ a a' a,~ a a' a,~ a4 a'8 |
+  e8 b' e~ e b e~ e b e~ e b4 |
+  b,8 fis' b~ b b fis~ fis b fis~ fis b4 | 
+  cis,,8 cis' cis~ cis gis' cis~ cis gis cis~ cis gis4 |
+  a,8 a' a,~ a a' a,~ a a' a,~ a8 a'4 |
+  e,8 e'4~ e8 e4~ e8 e4~ e8 e4 |
+  b8 fis' b~ b b fis~ fis b fis~ fis b4 | 
+  cis,,8 cis' cis~ cis gis' cis~ cis gis cis~ cis gis4 |
+
+
 }
 
 \score {
