@@ -70,7 +70,13 @@ upper = \relative c' {
   <cis e>4. <cis e> e fis4 fis8 |
   <b, e gis>4 b8 <e gis>4 b8 <e gis>4 b8 b'4 e,8 |
   <dis fis>4. \< <dis fis> <dis fis> e4 dis8 |
+  \clef treble
   <gis cis e>4. \f <gis cis e> <gis cis e> <gis dis'>4 <gis dis'>8 |
+  <a cis e>4. <a cis e> <a cis e> fis'4 a,8 |
+  <b e gis>4. <b e gis> <b e gis> <b b'>4 <b e>8 |
+  <b dis fis>4. <b dis fis> <b dis fis> e4 dis8 |
+  e4. \sp e e dis4 dis8 | 
+
 }
 
 lower = \relative c {
@@ -125,7 +131,10 @@ lower = \relative c {
   e,8 e'4~ e8 e4~ e8 e4~ e8 e4 |
   b8 fis' b~ b b fis~ fis b fis~ fis b4 | 
   cis,,8 cis' cis~ cis gis' cis~ cis gis cis~ cis gis4 |
-
+  a,8 a' a~ a a e'~ e a, e'~ e e4 |
+  e,,8 e' e~ e b' e~ e b e~ e b4 |
+  b,8 fis' b~ b b fis'~fis fis b~ b b4 | 
+  cis,8 gis' cis~ cis gis cis~ cis gis cis~ cis cis4 | 
 
 }
 
