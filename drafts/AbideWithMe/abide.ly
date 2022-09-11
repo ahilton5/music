@@ -76,7 +76,10 @@ upper = \relative c' {
   <b e gis>4. <b e gis> <b e gis> <b b'>4 <b e>8 |
   <b dis fis>4. <b dis fis> <b dis fis> e4 dis8 |
   e4. \sp e e dis4 dis8 | 
-
+  e4. e e fis4 e8 | 
+  <e gis>4. <e gis> <e gis> <e b'>4 e8 |  
+  \override TextSpanner.bound-details.left.text = "rit."
+  <e dis'>4 \startTextSpan e8 b'4 e,8 dis'4 e,8 e'4 e,8\fermata \stopTextSpan |
 }
 
 lower = \relative c {
@@ -135,7 +138,9 @@ lower = \relative c {
   e,,8 e' e~ e b' e~ e b e~ e b4 |
   b,8 fis' b~ b b fis'~fis fis b~ b b4 | 
   cis,8 gis' cis~ cis gis cis~ cis gis cis~ cis cis4 | 
-
+  a8 cis a~ a a cis~ cis a cis~ cis a4 |
+  e8 b' e r b e r b e r b4 | 
+  a8 cis4~ cis8 cis4~ cis8 cis4~ cis8 e4 | 
 }
 
 \score {
