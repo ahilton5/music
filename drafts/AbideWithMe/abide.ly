@@ -80,6 +80,13 @@ upper = \relative c' {
   <e gis>4. <e gis> <e gis> <e b'>4 e8 |  
   \override TextSpanner.bound-details.left.text = "rit."
   <e dis'>4 \startTextSpan e8 b'4 e,8 dis'4 e,8 e'4 e,8\fermata \stopTextSpan |
+
+  % Third verse
+  \key c \major
+  <g c e>4\arpeggio g8 c4 g8 <g e'>4 g8 <g d'>4 g8\fermata | 
+  \override TextSpanner.bound-details.left.text = "a tempo"
+  <e g c>4.\arpeggio \mp \startTextSpan g4 \stopTextSpan g8  g'4. c,4 c8 |
+ 
 }
 
 lower = \relative c {
@@ -141,10 +148,17 @@ lower = \relative c {
   a8 cis a~ a a cis~ cis a cis~ cis a4 |
   e8 b' e r b e r b e r b4 | 
   a8 cis4~ cis8 cis4~ cis8 cis4~ cis8 e4 | 
+
+  % Third verse
+  \key c \major
+  c8\arpeggio e4~ e8 e4~ e8 e4~ e8 e4 |
+  c,,8\arpeggio g' c e g c e g c r g4 |
+
 }
 
 \score {
   \new PianoStaff <<
+  \set PianoStaff.connectArpeggios = ##t
     \new Staff = "r" \with {printPartCombineTexts = ##f } \upper 
     \new Staff = "l" \lower
   >>
