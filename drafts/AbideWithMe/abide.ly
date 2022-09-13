@@ -83,10 +83,16 @@ upper = \relative c' {
 
   % Third verse
   \key c \major
-  <g c e>4\arpeggio g8 c4 g8 <g e'>4 g8 <g d'>4 g8\fermata | 
+  <g c e>4\arpeggio g8 c4 g8 <g e'>4 g8 <g d'>4 g8 | 
   \override TextSpanner.bound-details.left.text = "a tempo"
   <e g c>4.\arpeggio \mp \startTextSpan g4 \stopTextSpan g8  g'4. c,4 c8 |
- 
+  <c a'>4. <c g'> <c g'> f4 c8 | 
+  <g c e>4. c g2. |
+  <g e'>2. <a f'>4. <a g'> | 
+  <c a'>4. a <c e g>2. |
+  <a f'>4. d4 a8 e'4 a,8 fis'4 a,8 |
+  <b d g>4. b~ b2. |
+
 }
 
 lower = \relative c {
@@ -153,6 +159,12 @@ lower = \relative c {
   \key c \major
   c8\arpeggio e4~ e8 e4~ e8 e4~ e8 e4 |
   c,,8\arpeggio g' c e g c e g c r g4 |
+  f,,,8 f' f c' f a c f a c a4 | 
+  c,,,8 g' c e g c e c g c g c |
+  c,8 g' c e c e f, c' f~ f f c |
+  f,8 c' f~ f f c c, g' c e c g | 
+  f8 c' f~ f f4~ f8 f4~ f8 f4 |
+  g,8 d' g~ g g d g2. | 
 
 }
 
