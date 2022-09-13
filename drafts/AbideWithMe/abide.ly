@@ -164,7 +164,7 @@ lower = \relative c {
   c,8 g' c e c e f, c' f~ f f c |
   f,8 c' f~ f f c c, g' c e c g | 
   f8 c' f~ f f4~ f8 f4~ f8 f4 |
-  g,8 d' g~ g g d g2. | 
+  g,8 d' g~ g g d g,2. | 
 
 }
 
