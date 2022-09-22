@@ -92,7 +92,10 @@ upper = \relative c' {
   <c a'>4. a <c e g>2. |
   <a f'>4. d4 a8 e'4 a,8 fis'4 a,8 |
   <b d g>4. b~ b2. |
-
+  <g c e>4. <e g> <g e'> d' |
+  c4 g8 c4 g8 g'4 g,8 c4 g8 | 
+  <a c g'>4. <a c f>4 a8 <c f>4 a8 <c e>4 a8 |
+  <c d>4. a~ a2. | 
 }
 
 lower = \relative c {
@@ -165,7 +168,10 @@ lower = \relative c {
   f,8 c' f~ f f c c, g' c e c g | 
   f8 c' f~ f f4~ f8 f4~ f8 f4 |
   g,8 d' g~ g g d g,2. | 
-
+  c,8 g' c~ c c g~ g c g~ g c g | 
+  a8 e'4~ e8 e4~ e8 e4~ e8 e4 |
+  f,8 c' f~ f f4~ f8 f4~ f8 f4 |
+  g,8 d' g~ g g d g,2. | 
 }
 
 \score {
