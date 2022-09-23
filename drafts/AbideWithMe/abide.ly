@@ -96,6 +96,20 @@ upper = \relative c' {
   c4 g8 c4 g8 g'4 g,8 c4 g8 | 
   <a c g'>4. <a c f>4 a8 <c f>4 a8 <c e>4 a8 |
   <c d>4. a~ a2. | 
+  <f a d>4. a4 f8 e'4 f,8 f'4 f,8 | 
+  \override TextSpanner.bound-details.left.text = "rit."
+  <g e'>4\startTextSpan g8 d'4 g,8 c4 g8 f'4. |
+  <g, c e>2. <g c d>\stopTextSpan | 
+  % Postlude
+  \override TextSpanner.bound-details.left.text = "a tempo"
+  c4\startTextSpan g8\stopTextSpan c4 g8 g'4 g,8 c4 g8 | 
+  <g c>4 g8 c4 g8 g'2. | 
+  <e c'>4 c8 g'4 c,8 e4 c8 g'4 c,8 | 
+  \override TextSpanner.bound-details.left.text = "rit."
+  <a f'>4\startTextSpan g8 <g e'>4 g8 <g c>4.~ c4 f,8 |
+  e2. <c d>4. b4 c8\stopTextSpan |
+  c4 g8 c4 g8 c4 g8 c4 g8 |
+  c1. |
 }
 
 lower = \relative c {
@@ -172,6 +186,17 @@ lower = \relative c {
   a8 e'4~ e8 e4~ e8 e4~ e8 e4 |
   f,8 c' f~ f f4~ f8 f4~ f8 f4 |
   g,8 d' g~ g g d g,2. | 
+  f8 c' f~ f c4~ c8 c4~ c8 c4 |
+  g8 d'4~ d8 d4 a8 e'4~ e4. | 
+  <f, c'>2. <g d'> | 
+  % Postlude 
+  c8 g' r r g r r g r r g r | 
+  f,8 c'4~ c8 c4~ c2. |
+  c8 g'4~ g8 g4~ g8 g4~ g8 g4 |
+  f,8 c'4 c8 c4~ c2. |
+  <c, f a>2. <d g>2. | 
+  c8 g' r r g r r g r r g r | 
+  r1. |
 }
 
 \score {
