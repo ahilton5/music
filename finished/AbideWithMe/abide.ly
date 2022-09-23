@@ -107,9 +107,9 @@ upper = \relative c' {
   <e c'>4 c8 g'4 c,8 e4 c8 g'4 c,8 | 
   \override TextSpanner.bound-details.left.text = "rit."
   <a f'>4\startTextSpan g8 <g e'>4 g8 <g c>4.~ c4 f,8 |
-  e2. <c d>4. b4 c8\stopTextSpan |
+  e2. <c d>4. b4 c8 |
   c4 g8 c4 g8 c4 g8 c4 g8 |
-  c1. |
+  c1.\stopTextSpan |
 }
 
 lower = \relative c {
