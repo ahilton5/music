@@ -5,7 +5,7 @@
   subsubtitle = "Piano Solo"
   composer = "Arranged by Alden Hilton"
   arranger = " "
-  copyright = "© 2022. This song may be copied for noncommercial purposes."
+  copyright = "© 2022. This song may be copied for noncommercial purposes.\nhttps://github.com/ahilton5/music"
   tagline = ""
 }
 
