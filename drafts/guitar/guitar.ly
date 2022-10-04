@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-  title = "Song Unsung"
+  title = "Songs Unsung"
   subsubtitle = "Guitar Solo"
   composer = "Written by Alden Hilton"
   arranger = " "
@@ -55,6 +55,31 @@ music = \relative {
      b' d, d b' d, d b' d, |
      a' d, d <d a'>4.\arpeggio d8 d |
      % C
+     <fis' a>8 d, d <e' g> d, d <a' fis'> d, |
+     d <d a'>4\arpeggio <d a'>8\arpeggio <d a'>4\arpeggio <d a'>8\arpeggio <d a'>\arpeggio |
+     <fis' a>8 d, d <e' g> d, d <a' fis'> d, |
+     d <d a'>4\arpeggio <d a'>8\arpeggio <d a'>4\arpeggio <d a'>8\arpeggio <d a'>\arpeggio |
+     <fis' a>8 d, d <e' g> d, d <fis' a> d, |
+     <g' b>8 d, d <fis' a> d, d <e' g> d, |
+     <fis' a>8 d, d <e' g> d, d <a' fis'> d, |
+     <a' e'> d, d <a' e'> d, d <a' e'> d, |
+     <a' d> d, d d4 d8 d4 | 
+     % D
+     <d a' d a' d a'>8\arpeggio d'' a a' d, a <d,, a'''> d'' | 
+     a e'~ e4 <d,, a' d a' d e>8\arpeggio d'' a e' |
+     d d,, e'' d a d~ d4 |
+     <d,, a' d a' d a'>8\arpeggio d'' a a' d, a <d,, a'''> d'' | 
+     a e'~ e4 <d,, a' d a' d e>8\arpeggio d'' a e' |
+     d a e' d d,, d''~ d4 |
+     d,,8 a'' d a e' a, d a |
+     d,,8 a'' d a a' a, e' a, |
+     d,,8 a'' d a e' a, d a |
+     \override TextSpanner.bound-details.left.text = "rit."
+     d,,8\startTextSpan a'' d a a' a, e'4\fermata\stopTextSpan |
+     \override NoteHead.style = #'harmonic-mixed
+     d,\6^\markup { \italic \fontsize #-2 "harm." }  a'\5 d\4 g\3~ |
+     g2.\3 \override NoteHead.style = #'default fis8\3 (g\3 |
+     fis1\3) | 
 }
 
 
