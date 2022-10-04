@@ -6,3 +6,6 @@ My home for the music I write. My music can be used and copied for non-commercia
 - [I Feel my Savior's Love](https://github.com/ahilton5/music/blob/main/finished/IFeelMySaviorsLove/I-Feel-My-Saviors-Love.pdf), for piano.
 - [For the Beauty of the Earth](https://github.com/ahilton5/music/blob/main/finished/ForTheBeautyOfTheEarth/for.pdf), for voice and piano.
 - [Simple Gifts](https://github.com/ahilton5/music/blob/main/finished/SimpleGifts/simple.pdf), for voice and piano.
+
+## Original Compositions
+- [Songs Unsung](https://github.com/ahilton5/music/blob/main/finished/SongsUnsung/guitar.pdf), for classical guitar.
