@@ -2,10 +2,10 @@
 
 \header {
   title = "Silent Night"
-  subsubtitle = "SATB"
-  composer = "Arranged by Alden Hilton"
-  arranger = " "
-  copyright = "© 2022. This song may be copied for noncommercial purposes."
+  subsubtitle = "SATTBB + piano"
+  composer = "Vocal parts were adapted from the LDS hymnbook."
+  arranger = "Arranged by Alden Hilton"
+  copyright = "© 2022. This song may be copied for noncommercial purposes. https://github.com/ahilton5/music"
   tagline = ""
 }
 
