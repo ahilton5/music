@@ -42,6 +42,14 @@ upper = \relative c' {
   aes2. aes4 |
   aes2~ aes8 bes aes f |
   ees2. ees4 |
+  bes'2~ bes8 c bes ees, |
+  c'2. aes4 |
+  g2~ g8 aes g f |
+  ees2. <aes c>4 | 
+  <aes c>2~ <aes c>8 aes des c |
+  c2 bes |
+  bes2~ bes8 aes c bes |
+  bes2 aes4 aes |
 }
 
 lower = \relative c {
@@ -69,7 +77,14 @@ lower = \relative c {
   aes,8 ees' c' ees, c' ees, c' ees, |
   aes,8 f' des' f, des' f, des' f, |
   aes,8 ees' c' ees, c' ees, c' ees, |
-
+  aes,8 f' des' f, des' f, des' f, |
+  aes,8 ees' c' ees, c' ees, c' ees, |
+  aes,8 f' des' f, des' f, des' f, |
+  ees,8 bes' ees bes g' ees~ ees4 |
+  aes,8 ees' <aes c> ees <aes c> ees <aes c> ees |
+  aes,8 f' <aes des> f <aes des> f <aes des>4 |
+  aes,8 f' <aes des> f <aes des> f <aes des> f |
+  aes,8 g' <bes ees> g <bes ees> g <bes ees>4 |
 }
 
 \score {
