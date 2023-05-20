@@ -52,7 +52,7 @@ music = \relative {
      \key c \major
      \time 3/4
      % Intro
-     c'8 c' e c e c |
+     c8 c' e c e c |
      c,8 c' e c e c |
      % V1
      c,8 c' e c e c |
@@ -83,12 +83,12 @@ music = \relative {
           \new Voice = "mel" { \melody }
           \new Lyrics \lyricsto mel \text
           \new Staff {
-               \clef "treble"
+               \clef "treble_8"
                \music
           }
           \new TabStaff {
                \clef "tab"
-               \set Staff.stringTunings = \stringTuning <a d' g' c'' e'' a''>
+               \set Staff.stringTunings = \stringTuning <a, d g c' e' a'>
                \music
           }
      >>
