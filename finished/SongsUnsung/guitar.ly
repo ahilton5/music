@@ -11,7 +11,6 @@
 
 \layout { \omit Voice.StringNumber }
 music = \relative {
-     \clef "treble_8"
      \key d \major
      \time 4/4
      % A
@@ -88,9 +87,11 @@ music = \relative {
 \score {
      \new StaffGroup <<
           \new Staff {
+               \clef "treble_8"
                \music
           }
           \new TabStaff {
+               \clef tab
                \set Staff.stringTunings = \guitar-drop-d-tuning
                \music
           }
