@@ -14,7 +14,7 @@ melody = \relative {
      \key c \major
      \time 3/4
      r2. |
-     r2 r8 g' |
+     r2 r8 g |
      g'4 e4. g,8 |
      e'4 d4. g,8 |
      g'4 d g |
@@ -32,6 +32,31 @@ melody = \relative {
      g d e |
      c2. |
      r2. |
+     r |
+     r |
+     r |
+     r |
+     r |
+     r |
+     r |
+     r2 r8 g |
+     g'4 e4. g,8 |
+     e'4 d4. g,8 |
+     g'4 d g |
+     a g4 r8 g,8 |
+     g'4 e4. g,8 |
+     e'4 d4. g,8 |
+     g'4 d e |
+     c2 r8 c |
+     a'4 f a |
+     g e g |
+     g d g |
+     g e4 r8 c8 |
+     a'4 f a |
+     g e g |
+     g d e |
+     c2. |
+     r\fermata |
 }
 
 
@@ -73,6 +98,32 @@ music = \relative {
      c,8 c' e c e c |
      c,8 c' e4 c |
      % V2
+     <f, a'>8 c' f c a' c, |
+     <e, g'> c' e c g' c, |
+     <g g'> g d' g, g' g, |
+     <c, g''> c e' c, <e c'>4 |
+     <f a'>8 c' f c a' c, |
+     <e, g'> c' e c g' c, |
+     <g g'> g d' g, e' g, |
+     <c, c'> e g2 |
+     % V3
+     <c, e g c>2.\arpeggio |
+     <f a c e>\arpeggio |
+     <d g d' g>\arpeggio |
+     <f a c>4\arpeggio <e g c>2\arpeggio |
+     <c e g c>2.\arpeggio |
+     <f a c e>\arpeggio |
+     <d g d' g>\arpeggio |
+     c8 g' d g e g |
+     f a c a c a |
+     e g c g c g |
+     d g d' g, d' g, |
+     e g c g c g |
+     f a c a c a |
+     e g c g c g |
+     d g d' g, d' g, |
+     c,8 c' e c e c |
+     c,8 c' e c e4\fermata |
 }
 
 
