@@ -50,6 +50,20 @@ upper = \relative c' {
   c2 bes |
   bes2~ bes8 aes c bes |
   bes2 aes4 aes |
+  <f aes>2~ <f aes>8 bes8 aes f |
+  ees4 aes2 bes4 |
+  \time 3/4
+  c2~ c8 aes |
+  bes2. |
+  aes2. |
+  r |
+  r |
+  r |
+  r4 <bes, ees> <bes ees>~ |
+  <bes ees> <bes ees> <bes ees>~ |
+  <bes ees> <aes des> <aes des>~ |
+  \time 4/4
+  <aes des> <aes des> <aes des> \clef bass ees |
 }
 
 lower = \relative c {
@@ -76,15 +90,28 @@ lower = \relative c {
   aes,8 ees' c' ees, c' ees, c' ees, |
   aes,8 ees' c' ees, c' ees, c' ees, |
   aes,8 f' des' f, des' f, des' f, |
-  aes,8 ees' c' ees, c' ees, c' ees, |
+  aes,8 ees' c' ees, c' ees,~ ees4 |
   aes,8 f' des' f, des' f, des' f, |
   aes,8 ees' c' ees, c' ees, c' ees, |
   aes,8 f' des' f, des' f, des' f, |
-  ees,8 bes' ees bes g' ees~ ees4 |
+  ees,8 bes' <ees g> bes <ees g>2 |
   aes,8 ees' <aes c> ees <aes c> ees <aes c> ees |
   aes,8 f' <aes des> f <aes des> f <aes des>4 |
   aes,8 f' <aes des> f <aes des> f <aes des> f |
-  aes,8 g' <bes ees> g <bes ees> g <bes ees>4 |
+  aes,8 g' <bes ees> g <bes ees>2 |
+  des,,8 aes' <f' aes> des <f aes>4 des |
+  aes8 ees' <aes c> ees <aes c>2 |
+  \time 3/4
+  aes,8 ees' c' ees, c'4 |
+  aes,8 f' des' f, des'4 |
+  aes,8 ees' <aes c> ees <aes c> ees |
+  aes,8 ees' <aes c> ees <aes c> ees |
+  aes,8 f' <aes des> f <aes des> f |
+  aes,8 f' <aes des> f <aes des> f |
+  aes,8 g'4 g g8 |
+  aes,8 g'4 g g8 |
+  aes,8 f'4 f f8 |
+  aes,8 f'4 f~ f4. |
 }
 
 \score {
