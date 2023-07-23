@@ -93,6 +93,25 @@ upper = \relative c' {
   \time 4/4
   <aes des> <aes des> <aes des>2 |
   % interlude
+  c8 bes c bes c bes c bes |
+  c8 bes c bes c bes c bes |
+  des c des c des c des c |
+  des c des c des c des c |
+  ees des ees des ees des ees des |
+  ees des ees des ees des ees des |
+  des c des c des c des c |
+  des c des c des c des c |
+  \key g \major
+  b a b a b a b a |
+  b a b a b a b a |
+  c b c b c b c b |
+  c b c b c b c b |
+  d c d c d c d c |
+  d c d c d c d c |
+  c b c b c b c b |
+  c b c b c4 d |
+  % third verse
+
 }
 
 lower = \relative c {
@@ -169,6 +188,24 @@ lower = \relative c {
   \time 4/4
   aes,8 f'4 f~ f4. |
   % interlude
+  aes,4 ees' aes2 |
+  aes,4 ees' aes2 |
+  aes,4 f' aes2 |
+  aes,4 f' aes2 |
+  aes,4 g' bes2 |
+  aes,4 g' bes2 |
+  aes,4 f' aes2 |
+  aes,4 f' aes2 |
+  \key g \major
+  g,4 d' g2 |
+  g,4 d' g2 |
+  g,4 e' g2 |
+  g,4 e' g2 |
+  g,4 fis' a2 |
+  g,4 fis' a2 |
+  g,4 e' g2 |
+  g,4 e' g2 |
+  % third verse
 }
 
 \score {
