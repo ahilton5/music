@@ -21,7 +21,7 @@ upper = \relative c' {
   \clef treble
   \key aes \major
   \time 3/4
-  r4 c c~ |
+  r4\mp^"Rubato" c c~ |
   c c c~ |
   c des des~ |
   des des des~ |
@@ -45,7 +45,7 @@ upper = \relative c' {
   bes'2~ bes8 c bes ees, |
   c'2. aes4 |
   g2~ g8 aes g f |
-  ees2. <aes c>4 | 
+  ees2.\< <aes c>4 \! | 
   <aes c>2~ <aes c>8 aes des c |
   c2 bes |
   bes2~ bes8 aes c bes |
@@ -53,9 +53,9 @@ upper = \relative c' {
   <f aes>2~ <f aes>8 bes8 aes f |
   ees4 aes2 bes4 |
   \time 3/4
-  c2~ c8 aes |
+  c2~\> c8 aes |
   bes2. |
-  aes2. |
+  aes2.\! |
   r |
   r |
   r |
@@ -72,17 +72,17 @@ upper = \relative c' {
   bes'2~ bes8 c bes ees, |
   c'2. aes4 |
   g2~ g8 aes g f |
-  ees2. <aes c>4 |
-  <aes c>2~ <aes c>8 aes des c |
+  ees2.\< <aes c>4 |
+  <aes c>2~\! <aes c>8 aes des c |
   c2 bes2 |
   bes2~ bes8 aes c bes |
   bes2 aes4 aes |
   <f aes>2~ <f aes>8 bes aes f |
   ees2 aes4 bes |
   \time 3/4
-  <aes c>2~ <aes c>8 aes |
+  <aes c>2~\> <aes c>8 aes |
   bes2. |
-  aes2. |
+  aes2.\! |
   r |
   r |
   r |
@@ -108,10 +108,10 @@ upper = \relative c' {
   c b c b c b c b |
   d c d c d c d c |
   d c d c d c d c |
-  c b c b c b c b |
-  c b c b c4 d |
+  c\< b c b c b c b |
+  c b c b c4 d \! |
   % third verse
-  <g b>2~ <g b>8 a g fis |
+  <g b>2~\f <g b>8 a g fis |
   <b, d g>2. g'4 |
   <c, e g>2~ <c e g>8 a' g e |
   <b d>2. d4 |
@@ -119,17 +119,26 @@ upper = \relative c' {
   <d g b>2. g4 |
   <d fis>2~ <d fis>8 g fis e |
   <fis, a d>2. b'4 |
-  b2~ b8 g c b |
+  b2~\sp b8 g c b |
   b2 a |
   a2~ a8 g b a |
   a2 g4 g |
   g2~ g8 a g e |
   d4 g2 a4 |
   \time 3/4
-  <g b>2~ <g b>8 g |
-  <g a>2. |
-  g2. |
-
+  <g b>2~\fermata <g b>8 g |
+  <g a>2.\fermata |
+  r4\pp b' b~ |
+  b4 b b~ |
+  b4 c c~ |
+  c4 c c~ |
+  c4 d d~ |
+  d4 d d~ |
+  d4 c c~ |
+  c4 c c~ |
+  c2.~ |
+  c4 b c |
+  <g a b>2.\fermata |
 }
 
 lower = \relative c {
@@ -234,6 +243,25 @@ lower = \relative c {
   d,8 a' <fis' a> a, <fis' a>2 |
   \clef treble
   g8 d' b' d, b'8. d,4~ d16 |
+  g,8 e' c' e,~ e e c'4 |
+  g,8 e' c' e, c'2 |
+  g,8 fis' d' fis,~ fis2 |
+  <c e>1 |
+  <g b>1 |
+  \time 3/4
+  <c e>2.\fermata |
+  <d fis>2.\fermata |
+  g8 d'4 d4 d8 |
+  g,8 d'4 d4 d8 |
+  g,8 e'4 e4 e8 |
+  g,8 e'4 e4 e8 |
+  g,8 fis'4 fis4 fis8 |
+  g,8 fis'4 fis4 fis8 |
+  g,8 e'4 e4 e8 |
+  g,8 e'4 e4.~ |
+  e2.~ |
+  e2. |
+  <g, d'>2.\fermata |
 }
 
 \score {
