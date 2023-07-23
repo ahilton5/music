@@ -111,6 +111,24 @@ upper = \relative c' {
   c b c b c b c b |
   c b c b c4 d |
   % third verse
+  <g b>2~ <g b>8 a g fis |
+  <b, d g>2. g'4 |
+  <c, e g>2~ <c e g>8 a' g e |
+  <b d>2. d4 |
+  <c e a>2~ <c e a>8 b' a d, |
+  <d g b>2. g4 |
+  <d fis>2~ <d fis>8 g fis e |
+  <fis, a d>2. b'4 |
+  b2~ b8 g c b |
+  b2 a |
+  a2~ a8 g b a |
+  a2 g4 g |
+  g2~ g8 a g e |
+  d4 g2 a4 |
+  \time 3/4
+  <g b>2~ <g b>8 g |
+  <g a>2. |
+  g2. |
 
 }
 
@@ -206,6 +224,14 @@ lower = \relative c {
   g,4 e' g2 |
   g,4 e' g2 |
   % third verse
+  g,8 d' <g b> d <g b> d <g b> d |
+  g,8 d' <g b> d <g b> d4 d8 |
+  g,8 e' <g c> e <g c> e <g c> e |
+  g,8 d' <g b> d <g b> d4 d8 |
+  g,8 e' <g c> e <g c>~ <g c> e4 |
+  g,8 d' <g b> d <g b> d4 d8 |
+  g,8 e' <g c> e <g c>~ <g c>16 e4~ e16 |
+
 }
 
 \score {
