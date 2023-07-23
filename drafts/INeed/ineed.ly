@@ -64,6 +64,35 @@ upper = \relative c' {
   <bes ees> <aes des> <aes des>~ |
   \time 4/4
   <aes des> <aes des> <aes des> \clef bass ees |
+  % second verse
+  c'2~ c8 bes aes g |
+  aes2. aes4 |
+  aes2~ aes8 bes aes f |
+  ees2. ees4 |
+  bes'2~ bes8 c bes ees, |
+  c'2. aes4 |
+  g2~ g8 aes g f |
+  ees2. <aes c>4 |
+  <aes c>2~ <aes c>8 aes des c |
+  c2 bes2 |
+  bes2~ bes8 aes c bes |
+  bes2 aes4 aes |
+  <f aes>2~ <f aes>8 bes aes f |
+  ees2 aes4 bes |
+  \time 3/4
+  <aes c>2~ <aes c>8 aes |
+  bes2. |
+  aes2. |
+  r |
+  r |
+  r |
+  \clef treble
+  r4 <bes ees> <bes ees>~ |
+  <bes ees> <bes ees> <bes ees>~ |
+  <bes ees> <aes des> <aes des>~ |
+  \time 4/4
+  <aes des> <aes des> <aes des>2 |
+  % interlude
 }
 
 lower = \relative c {
@@ -111,7 +140,35 @@ lower = \relative c {
   aes,8 g'4 g g8 |
   aes,8 g'4 g g8 |
   aes,8 f'4 f f8 |
+  \time 4/4
   aes,8 f'4 f~ f4. |
+  % second verse
+  aes,8 ees' c' ees, c'4 ees, |
+  aes,8 ees' c' ees, c' ees,4 ees8 |
+  aes,8 f' des' f, des'4 f, |
+  aes,8 ees' c' ees, c' ees,4 ees8 |
+  aes,8 f' des' f, des'4 f, |
+  aes,8 ees' c' ees, c' ees,4 ees8 |
+  aes,8 f' des' f, des'8. f,4~ f16 |
+  ees,8 bes' <ees g> bes <ees g> bes~ bes4 |
+  aes8 ees' <aes c> ees <aes c>8. ees4~ ees16 |
+  aes,8 f' des' f,~ f f des'4 |
+  aes,8 f' des' f, des'8. f,4~ f16 |
+  aes,8 f' des' f,4 f4. |
+  des,8 aes' <f' aes> des <f aes>8. des4~ des16 |
+  aes8 ees' c' ees,~ ees ees4. |
+  aes,8 ees' c' ees, c'4 |
+  aes,8 f' des' f, des'4 |
+  aes,8 ees' <aes c> ees <aes c> ees |
+  aes,8 ees' <aes c> ees <aes c> ees |
+  aes,8 f' <aes des> f <aes des> f |
+  aes,8 f' <aes des> f <aes des> f |
+  aes,8 g'4 g g8 |
+  aes,8 g'4 g g8 |
+  aes,8 f'4 f f8 |
+  \time 4/4
+  aes,8 f'4 f~ f4. |
+  % interlude
 }
 
 \score {
