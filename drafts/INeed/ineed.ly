@@ -231,7 +231,9 @@ lower = \relative c {
   g,8 e' <g c> e <g c>~ <g c> e4 |
   g,8 d' <g b> d <g b> d4 d8 |
   g,8 e' <g c> e <g c>~ <g c>16 e4~ e16 |
-
+  d,8 a' <fis' a> a, <fis' a>2 |
+  \clef treble
+  g8 d' b' d, b'8. d,4~ d16 |
 }
 
 \score {
