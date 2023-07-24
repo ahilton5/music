@@ -275,3 +275,29 @@ lower = \relative c {
   \layout { }
   \midi {}
 }
+
+\markup {\italic {Text by Annie S. Hawks, 1835-1918}}
+
+\markuplist {
+  \override #'(padding . 2)
+  \table
+    #'(-1 -1)
+    {
+      " " " "
+      "1. I need thee ev'ry hour," "2. I need thee ev'ry hour;"
+      "Most gracious Lord." "Stay thou nearby."
+      "No tender voice like thine" "Temptations lose their pow'r"
+      "Can peace afford." "When thou art nigh."
+      " " " "
+      "3. I need thee ev'ry hour," "4. I need thee ev'ry hour,"
+      "In joy or pain." "Most holy One."
+      "Come quickly and abide," "Oh, make me thine indeed,"
+      "Or life is vain." "Thou blessed Son!"
+      " " " "
+      \italic {"[Chorus]"} " "
+      "I need thee, oh, I need thee;" " "
+      "Ev'ry hour I need thee!" " "
+      "Oh, bless me now, my Savior;" " "
+      "I come to thee!" " "
+    }
+}
