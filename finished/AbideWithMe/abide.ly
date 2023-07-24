@@ -208,3 +208,23 @@ lower = \relative c {
   \layout { }
   \midi {}
 }
+
+\markup {\italic {Text by Henry F. Lyte, 1793-1847}}
+
+\markuplist {
+  \override #'(padding . 2)
+  \table
+    #'(-1 -1)
+    {
+      " " " "
+      "1. Abide with me! fast falls the eventide;" "2. Swift to its close ebbs out life's little day."
+      "The darkness deepens. Lord, with me abide!" "Earth's joys grow dim; its glories pass away."
+      "When other helpers fail and comforts flee," "Change and decay in all around I see;"
+      "Help of the helpless, oh, abide with me!" "O thou who changest not, abide with me!"
+      " " " "
+      "3. I need thy presence ev'ry passing hour." " "
+      "What but thy grace can foil the tempter's pow'r?" " "
+      "Who, like thyself, my guide and stay can be?" " "
+      "Thru cloud and sunshine, Lord, abide with me!" " "
+    }
+}
