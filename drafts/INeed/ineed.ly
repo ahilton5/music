@@ -63,7 +63,7 @@ upper = \relative c' {
   <bes ees> <bes ees> <bes ees>~ |
   <bes ees> <aes des> <aes des>~ |
   \time 4/4
-  <aes des> <aes des> <aes des> \clef bass ees |
+  <aes des> <aes des> <aes des> \clef bass \footnote #'(3 . 1/2) \markup\justify{Expect frequent hand-crossing and competition for the same keys throughout the second verse. You will frequently need to release notes earlier than indicated to free up a key for the other hand.} ees |
   % second verse
   c'2~ c8 bes aes g |
   aes2. aes4 |
@@ -134,10 +134,12 @@ upper = \relative c' {
   c4 c c~ |
   c4 d d~ |
   d4 d d~ |
+  \break % This added so that there's not a lonely line on the last page
   d4 c c~ |
   c4 c c~ |
   c2.~ |
   c4 b c |
+  <g a b>2.~ |
   <g a b>2.\fermata |
 }
 
@@ -261,7 +263,8 @@ lower = \relative c {
   g,8 e'4 e4.~ |
   e2.~ |
   e2. |
-  <g, d'>2.\fermata |
+  <g, d'>2.~ |
+  <g d'>2.\fermata |
 }
 
 \score {
