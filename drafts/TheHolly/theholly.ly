@@ -77,18 +77,21 @@ upper = \relative c'' {
     c2 c8 bes |
     a8 g f4 a8 a |
     d,8 d c4 f8 g |
-    <f a>8 <g bes> <f a>4 g |
+    <f a>8 <g bes> <f a>4 g~ |
     \time 4/4
-    f1 |
-    r2.\fermata \clef treble f'4 |
-    f8 f f4 d' |
-    c4 a f |
-    f8 f f4 d' |
-    c2 c8 bes |
-    <f a> g f4 a8 a |
-    d,8 d c4 f8 g |
-    a8 bes a4 g |
-    f2
+    g2 g4 f~ |
+    f4 r bes4 g~ |
+    g4 g a g~ |
+    g4 a c <a c f> |
+    % r2.\fermata \clef treble f'4 |
+    % f8 f f4 d' |
+    % c4 a f |
+    % f8 f f4 d' |
+    % c2 c8 bes |
+    % <f a> g f4 a8 a |
+    % d,8 d c4 f8 g |
+    % a8 bes a4 g |
+    % f2
 
 }
 
@@ -147,13 +150,18 @@ lower = \relative c' {
     <bes, bes'>4 f'2 |
     <f c'>2. |
     \time 4/4
-    f8 c' f c g' c, f c |
-    f,8 c' f c g'2\fermata |
-    \time 3/4
-    <f a c>4. <f a c> |
-    <f a c>4. <f a c>4 <f a c>8 |
-    <f bes d>4. <f bes d> |
-    <a c e>2. |
+    % f8 c' f c g' c, f c |
+    f8 c' f c4 c c8 |
+    f,8 c' f c4 c c8 |
+    f,8 c' f c4 c c8 |
+    f,,8 f' f c' f c~ c4 |
+    
+    
+    % \time 3/4
+    % <f a c>4. <f a c> |
+    % <f a c>4. <f a c>4 <f a c>8 |
+    % <f bes d>4. <f bes d> |
+    % <a c e>2. |
 
 }
 
