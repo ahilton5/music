@@ -9,6 +9,7 @@ My home for the music I write. My music can be used and copied for non-commercia
 - [Simple Gifts](https://github.com/ahilton5/music/blob/main/finished/SimpleGifts/simple.pdf), for voice and piano.
 - [I Often Go Walking](https://github.com/ahilton5/music/blob/main/finished/IOftenGoWalking/ioften.pdf), for voice and guitar.
 - [I Need Thee Every Hour](https://github.com/ahilton5/music/blob/main/finished/INeed/ineed.pdf), for piano.
+- [The Holly and The Ivy](https://github.com/ahilton5/music/blob/main/finished/INeed/theholly.pdf), for piano.
 
 ## Original Compositions
 - [Songs Unsung](https://github.com/ahilton5/music/blob/main/finished/SongsUnsung/guitar.pdf), for classical guitar.
