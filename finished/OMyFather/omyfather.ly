@@ -109,14 +109,17 @@ melody = \relative c' {
     e4.~ e4 e8 e d e |
     fis2. d8 e fis |
     g4.~ g4 g8 b, d g |
-    fis4. fis a,8 d fis |
-    a4.~ a4 g8 fis4 e8 |
+    \tempo \markup { \italic rit }
+    fis4. fis\startTextSpan a,8 d fis |
+    a4.~ a4 g8 fis4 e8\stopTextSpan  |
+    \tempo \markup { \italic a tempo }
     d2.~ d4. |
     r2. r4. |
     r2. r4. |
-    r2.\fermata a8 d fis |
-    a4.~ a4 g8 fis4 e8 |
-    d2.~ d4. |
+    r2.\fermata\tempo \markup { \italic rit } a8 d\startTextSpan fis |
+    a4.\fermata~ a4 g8 fis4 e8\stopTextSpan |
+    \tempo \markup { \italic a tempo } 
+    d2.~d4. |
     r2. r4.\fermata |
 }
 
@@ -124,6 +127,7 @@ upper = \relative c'' {
     \clef treble
     \key d\major
     \time 9/8
+    <d a'>4.\mp <d a'> <d a'> |
     <d a'>4. <d a'> <d a'> |
     <d a'>4. <d a'> <d a'> |
     <d a'>4. <d a'> <d a'> |
@@ -143,9 +147,8 @@ upper = \relative c'' {
     <d a'>4. <d a'> <d a'> |
     <d a'>4. <d a'> <d a'> |
     <d a'>4. <d a'> <d a'> |
-    <d a'>4. <d a'> <d a'> |
-    <d, a'>4. <d a'> \clef bass d8 a fis |
-    d4. <d a'> <d a'> |
+    <d, a'>4.\< <d a'> \clef bass d8 a fis\! |
+    d4.\mf <d a'> <d a'> |
     <d fis a>4. <d a'> <d a'> |
     <d e a>4. <d a'> <d a'> |
     <d g a>4. <d a'> <d a'> |
@@ -165,18 +168,18 @@ upper = \relative c'' {
     <d a'>4. <d a'> <d a'> |
     <d a'>4. <d a'> <d a'> |
     <d a'>4. <d a'> <d a'> |
-    <d a'>4. <d a'> <d a'> |
-    <d a'>4. <d a'>2. |
+    <d a'>4. <d a'> <d a'>~ |
+    <d a'>2.~ <d a'>4. |
     \clef treble
-    <b' fis'>4. <b fis'> <b fis'> |
+    <b' fis'>4.\mp <b fis'> <b fis'> |
     <a e'> <a e'> <a e'> |
     <b g'> <b g'> <b g'> |
     <b fis'>4. <b fis'> <b fis'>
     <b fis'>4. <b fis'> <b fis'> |
-    <a b e> <a b e> <a b e> |
+    <a b e>\< <a b e> <a b e> |
     <a b e> <a b e>4 a8 <a b e>4 a8 |
     \clef bass
-    <fis a d>4. <fis a d> <fis a d>4 fis8 |
+    <fis a d>4. <fis a d>\! <fis a d>4\f fis8 |
     <g a d>4. <g a d> <g a d>4 g8 |
     <fis a d>4. <fis a d> <fis a d>4 fis8 |
     <e a d>4 e8 <e a d>4 e8 <e a d>4 e8 |
@@ -185,12 +188,12 @@ upper = \relative c'' {
     <fis a d>4. <fis a d> <fis a d>4. |
     <e a d>2.~ <e a d>4. |
     \clef treble
-    <d' a'>4. <d a'> <d a'> |
+    <d' a'>4.\mp <d a'> <d a'> |
     <d a'>4. <d a'> <d a'> |
     <d a'>4. <d a'> <d a'> |
     <d a'>4. <d a'>2.\fermata |
-    <e, a d>2.~ <e a d>4. |
-    <d'' a'>4. <d a'> <d a'> |
+    <e, a d>2.\fermata~ <e a d>4. |
+    <d'' a'>4.\p <d a'> <d a'> |
     <d a'>4. <d a'> <d fis d'>\fermata |
 
 }
@@ -240,7 +243,7 @@ lower = \relative c' {
     d2.~ d4. |
     d8 e fis fis2. |
     a8  g fis e2. |
-    e8 fis e d2. |
+    e8 fis e d2.~ |
     d2.~ d4.~ |
     d2.~ d4. |
     b'2.~ b4. |
@@ -261,8 +264,8 @@ lower = \relative c' {
     d'2.~ d4. |
     d8 e fis fis2. |
     a8. g16 fis8 e2. |
-    a,2.~ a4. |
-    <a, a'>2.~ <a a'>4. |
+    a,2.~ a4.\fermata |
+    <a, a'>2.\fermata~ <a a'>4. |
     d''2.~ d4.~ |
     d2.~ d4.\fermata |
 }
