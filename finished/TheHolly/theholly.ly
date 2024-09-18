@@ -85,7 +85,7 @@ upper = \relative c'' {
     \time 3/4
     <a c f>8 f' <a, c f>4 <e' d'> |
     <f c'>4 a f |
-    <d f>8 f f4 <f d'> |
+    <d f>8 f <d f>4 <f d'> |
     <e c'>2 c'8 bes |
     <f a>8 g f4 a8 a |
     d,8 d c4 f8 g | 
@@ -101,8 +101,8 @@ upper = \relative c'' {
     d,8 d c4 f8 g |
     <f a>8 bes <f a>4 g |
     \time 4/4
-    f1~ |
-    f2. f4\p |
+    <a, c f>1~ |
+    <a c f>2. f'4\p |
     \time 3/4
     f8 f f4 d' |
     <e, c'>4 a f |
@@ -113,7 +113,7 @@ upper = \relative c'' {
     a8 bes a4 g |
     f2\fermata f'4\pp |
     f8 f f4 <e d'> |
-    <e c'>4 a f |
+    <f c'>4 a f |
     f8 f f4 d' |
     <e, c'>2 c'8 bes |
     a8 g f4 a8 a |
@@ -147,17 +147,17 @@ lower = \relative c' {
     <f a c>2. |
     <f, a c f>4. <f a c f>4. |
     <f a c f>4. <f a c f>4. |
-    <d' f a d>4. <d f a d>4. |
+    <bes d f bes>4. <bes d f bes>4. |
     <a c e a>2. |
     <f a c f>4. <f a c f>4. |
     <bes d f bes>2. |
     <f a c f>2. |
     \time 4/4
     f8 c' f c g' c, f c |
-    f,8 c' f c g' c, f4 |
+    f,8 c' f c g'2 |
     \clef bass
     f,,8 c' f c g' c, f c |
-    f,8 c' f c g' c,4 c8 |
+    f,8 c' f c g'2 |
     \time 3/4
     <f, c'>4. <f c'> |
     <f bes d> <f bes d> |
@@ -186,18 +186,18 @@ lower = \relative c' {
     \time 3/4
     f,4. c'8 f a |
     c e c a f e |
-    bes,8 bes' bes d f bes |
+    bes,8 bes'4 d8 f bes |
     a,8 e' a2 |
     f,8 c' f a c bes |
-    bes,,8 bes' d f d bes' |
-    f, c' f a bes f |
+    bes,,8 bes' d2 |
+    f,8 c' f a bes f |
     \time 4/4
     f,8 c' f c g' c, f c |
     f,8 c' f c g'2 |
     \time 3/4
     d,8 a' d f a d |
     a,8 c e a c e |
-    bes,, bes' d f bes f |
+    bes,,8 bes'4 d8 f bes |
     a,8 e' a2 |
     f,4. c'8 f4 |
     bes,,4 d'2 |
