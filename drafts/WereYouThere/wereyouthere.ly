@@ -150,10 +150,15 @@ upper = \relative c' {
   <bes ees bes'>2 <bes ees bes'> |
   <bes ees f bes>2 <bes ees f bes> |
   <bes d bes'>2 <bes d bes'> |
+  <bes ees bes'>2 <bes ees bes'> |
+  <bes ees bes'>2 <bes ees bes'> |
+  <bes ees bes'>2 <bes ees bes'> |
+  <d g>2 <c ees> |
+  <c f>1 |
 }
 
-lower = \relative c'' {
-  \clef treble
+lower = \relative c' {
+  \clef bass
   \key ees\major
   \time 2/2
   r1 |
@@ -167,6 +172,11 @@ lower = \relative c'' {
   aes1 |
   bes,1~ |
   bes1 |
+  ees2 aes |
+  ees1 |
+  aes1 |
+  <b, g'>2 <c g'> |
+  <aes aes'>2 <aes aes'> |
 }
 
 \score {
