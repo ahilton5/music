@@ -139,6 +139,7 @@ upper = \relative c' {
   \clef treble
   \key ees\major
   \time 2/2
+  % Verse 1
   <bes ees bes'>2 <bes ees bes'> |
   <bes ees bes'>2 <bes ees bes'> |
   <bes ees bes'>2 <bes ees bes'> |
@@ -155,12 +156,32 @@ upper = \relative c' {
   <bes ees bes'>2 <bes ees bes'> |
   <d g>2 <c ees> |
   <c f>1 |
+  <c ees>4 <bes ees>2. |
+  <aes c>4 <aes bes>2.~ |
+  <aes bes>2 <aes ees'> |
+  <bes g'>2 <bes g'> |
+  <bes ees f>2 <bes ees f> |
+  <<
+    {
+      \voiceOne
+      ees1~ |
+      ees1 |
+    }
+    \new Voice {
+      \voiceTwo
+      <g, bes>2 <aes c>4 <aes c> |
+        <g bes>2 <g bes> |
+    }
+  >>
+
+  % Verse 2
 }
 
 lower = \relative c' {
   \clef bass
   \key ees\major
   \time 2/2
+  % Verse 1
   r1 |
   r1 |
   r1 |
@@ -177,6 +198,15 @@ lower = \relative c' {
   aes1 |
   <b, g'>2 <c g'> |
   <aes aes'>2 <aes aes'> |
+  <aes ees'>2 <g ees'> |
+  <f c'>2 <bes f'> |
+  <bes f'>2 <c ees> |
+  <bes ees>1 |
+  <bes aes'>1 |
+  <ees, ees'>1~ |
+  <ees ees'>1 |
+
+  % Verse 2
 }
 
 \score {
