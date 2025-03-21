@@ -221,7 +221,7 @@ upper = \relative c' {
   <d g>2 <c ees> |
   <c f>1 |
   <c ees>4 <bes ees>2.\fermata |
-  <aes c>1 |
+  <aes c>4 <aes bes>2. |
   r2 ees'4 aes |
   <bes, ees g>2 <bes ees g> |
   <ees f>2 <ees f> |
@@ -257,7 +257,7 @@ upper = \relative c' {
   <aes c ees>1 |
   <bes ees f>2 <bes ees f> |
   <bes d f>2 <bes d f> |
-    <bes ees bes'>2 <bes ees bes'> |
+  <bes ees bes'>2 <bes ees bes'> |
   <bes ees bes'>2 <bes ees bes'> |
   <bes ees bes'>2 <bes ees bes'> |
   <d g>2 <c ees> |
@@ -283,9 +283,9 @@ upper = \relative c' {
   % Interlude
   <ees g> bes' <ees, ees'> c' |
   bes2 bes4 g |
-  c bes bes4. g8 |
-  <ees f>2 <ees f> |
-  <bes d f>2 bes4 ees |
+  c\< bes bes4. g8 |
+  <ees f>2 <ees f>\! |
+  <bes d f>2\f bes4 ees |
 
   % Verse 4
   <bes ees g>2 <bes ees g> |
@@ -304,16 +304,16 @@ upper = \relative c' {
   >>
   <g bes d>2 <g bes d> |
   <aes c ees>2 <aes c ees> |
-  <bes ees f>2 <bes ees f> |
-  <bes d f> <bes d f> |
-  <ees bes'>2 <ees bes'> |
-  <ees bes'>2 <ees bes'> |
+  <bes ees f>2\> <bes ees f> |
+  <bes d f> <bes d f>\! |
+  <ees bes'>2\p <ees bes'> |
+  <ees bes'>2\< <ees bes'> |
   <ees c'>4 <ees bes'>2. |
-  <d g>2 <c ees> |
-  <c f>4 <c ees>~ <c ees>4. r8 |
+  <d g>2 <c ees>\! |
+  <c f>4\f <c ees>~ <c ees>4. r8 |
   <c ees>8\staccato r <bes ees>2.\fermata |
-  <aes c>4 <aes bes>2.~ |
-  bes1 |
+  <aes c>4\mf <aes bes>2.~ |
+  bes1~ |
   bes2 <bes ees> |
   <bes ees g>2 <bes ees g> |
   <bes ees f>2 <bes ees f> |
@@ -375,8 +375,8 @@ lower = \relative c' {
   b g' c, g' |
   aes, ees' aes ees |
   aes, g ees' g\fermata |
-  f, bes f' bes, |
-  bes f' bes f |
+  f,2 bes4 f' |
+  bes, f' bes f |
   ees, bes' ees bes |
   bes f' bes f |
   ees, bes' ees bes |
