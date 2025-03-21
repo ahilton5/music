@@ -139,9 +139,11 @@ melody = \relative c' {
   f4 ees2. |
   ees4 ees2.\fermata |
   c4 bes2.~ |
-  bes2 ees4 aes |
+  bes1 |
+  r2 ees4 aes |
   g2 g4 g |
   f ees g4. f8 |
+  ees1~ |
   ees1 |
 }
 
@@ -311,7 +313,22 @@ upper = \relative c' {
   <c f>4 <c ees>~ <c ees>4. r8 |
   <c ees>8\staccato r <bes ees>2.\fermata |
   <aes c>4 <aes bes>2.~ |
+  bes1 |
   bes2 <bes ees> |
+  <bes ees g>2 <bes ees g> |
+  <bes ees f>2 <bes ees f> |
+  <<
+    {
+      \voiceOne
+      ees1~ |
+      ees1 |
+    }
+    \new Voice {
+      \voiceTwo
+      <g, bes>2 <aes c>4 <aes c> |
+      <g bes>1 |
+    }
+  >>
 }
 
 lower = \relative c' {
@@ -444,7 +461,23 @@ lower = \relative c' {
   <aes aes'>2 aes8 aes' aes,\staccato r |
   <aes aes'>8\staccato r <g ees'>4 g8 ees' g,4\fermata |
   <f f'>2 <bes f'> |
+  <bes f'>2 <bes f'> |
   <bes f'>2 g |
+  bes1 |
+  <bes aes'>1 |
+  <<
+    {
+      \voiceOne
+      r2 ees2~  |
+      ees1
+
+    }
+    \new Voice {
+      \voiceTwo
+      ees,1~ |
+      ees1 |
+    }
+  >>
 }
 
 \score {
