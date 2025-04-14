@@ -88,10 +88,12 @@ melody = \relative c' {
   f4 ees2. |
   ees4 ees2.\fermata |
   c4 bes2.~ |
-  bes2 ees4 aes |
+  bes1 |
+  r2 ees4 aes |
   g2 g4 g |
   f ees g4. f8 |
   ees1 |
+  r1 |
 
   % Verse 3
   r2 bes4 ees |
@@ -152,7 +154,7 @@ upper = \relative c' {
   \key ees\major
   \time 2/2
   % Verse 1
-  <bes ees bes'>2 <bes ees bes'> |
+  <bes ees bes'>2\p <bes ees bes'> |
   <bes ees bes'>2 <bes ees bes'> |
   <bes ees bes'>2 <bes ees bes'> |
   <bes ees bes'>2 <bes ees bes'> |
@@ -182,7 +184,7 @@ upper = \relative c' {
     \new Voice {
       \voiceTwo
       <g, bes>2 <aes c>4 <aes c> |
-        <g bes>2 <g bes> |
+        <g bes>2\mp <g bes> |
     }
   >>
 
@@ -201,29 +203,20 @@ upper = \relative c' {
       <g bes>2 <g bes> |
     }
   >>
-  <g bes d>2 <bes d> |
-  <c ees>2 <c ees> |
-  <ees f>2 <ees f> |
-  <d f>2 <d f> |
-  <<
-    {
-      \voiceOne
-      ees1~ |
-      ees1 |
-    }
-    \new Voice {
-      \voiceTwo
-      <g, bes>2 <aes c>2 |
-      <g bes>2 <g bes> |
-    }
-  >>
-  <c ees>1 |
+  <g bes d>2\< <bes d> |
+  <c ees>2 <c ees>\! |
+  <ees f>2\> <ees f> |
+  <d f>2 <d f>\! |
+  <ees bes' ees>2\p <ees aes ees'> |
+  <ees bes' ees> <ees bes' ees> |
+  <ees aes ees'>1 |
   <d g>2 <c ees> |
   <c f>1 |
   <c ees>4 <bes ees>2.\fermata |
-  <aes c>4 <aes bes>2. |
-  r2 ees'4 aes |
-  <bes, ees g>2 <bes ees g> |
+  <aes c>4 <aes bes>2.~ |
+  bes1 |
+  r2 <bes ees> |
+  <bes ees g>2 <bes ees g> |
   <ees f>2 <ees f> |
   <<
     {
@@ -239,7 +232,8 @@ upper = \relative c' {
   >>
 
   % Verse 3
-  <g bes g'>1 |
+  <g bes>2 r |
+  <bes' ees g>1 |
   <bes ees f>1 |
   <<
     {
@@ -261,10 +255,10 @@ upper = \relative c' {
   <bes ees bes'>2 <bes ees bes'> |
   <bes ees bes'>2 <bes ees bes'> |
   <d g>2 <c ees> |
-  <c f>1 |
+  <c f>4 <c ees>2. |
   <c ees>4 <bes ees>2. |
   <aes c>4 <aes bes>2.~ |
-  <aes bes>2 <aes ees'> |
+  <aes bes>2 <aes, ees'> |
   <bes g'>2 <bes g'> |
   <bes ees f>2 <bes ees f> |
   <<
@@ -369,35 +363,38 @@ lower = \relative c' {
   aes ees' aes ees |
   bes4 f' bes f |
   bes,4 f' bes f |
-  ees,4 bes' aes ees' |
-  ees,4 bes' ees bes |
-  aes ees' aes ees |
+  ees4 bes' aes c |
+  ees,4 bes'2 bes4 |
+  aes, ees' aes ees |
   b g' c, g' |
   aes, ees' aes ees |
   aes, g ees' g\fermata |
-  f,2 bes4 f' |
-  bes, f' bes f |
-  ees, bes' ees bes |
+  <f, f'>2 <bes f'> |
+  <bes f'>2 <bes f'> |
+  <bes f'>2 <g ees' g> |
+  % bes, f' bes f |
+  ees4 bes' ees bes |
   bes f' bes f |
   ees, bes' ees bes |
-  ees, bes' ees2 |
+  ees, bes' ees2~ |
+  ees1 |
 
   % Verse 3
-  <ees, bes' ees>1 |
-  <bes bes'>1 |
-  <ees ees'>1~ |
-  <ees ees'>1 |
-  <g d'>1 |
-  <aes ees'>1 |
-  <bes, bes'>2. bes'4~ |
-  <bes, bes'>1 |
-  ees'2 aes |
+  ees'1 |
+  bes1 |
+  ees1~ |
   ees1 |
-  aes1 |
-  <b, g'>2 <c g'> |
-  <aes aes'>2 <aes aes'> |
+  <g, d'>1 |
+  <aes ees'>1 |
+  bes2. bes4~ |
+  bes1 |
+  ees2 aes, |
+  ees'1 |
+  aes,1 |
+  <b g'>2 <c g'> |
+  aes2 aes |
   <aes ees'>2 <g ees'> |
-  <f c'>2 <bes f'> |
+  <f c'>2 <bes, f'> |
   <bes f'>2 <c ees> |
   <bes ees>1 |
   <bes aes'>1 |
