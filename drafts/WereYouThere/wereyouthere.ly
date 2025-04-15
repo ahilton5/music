@@ -140,13 +140,14 @@ melody = \relative c' {
   g4. f8 ees4 ees |
   f4 ees2. |
   ees4 ees2.\fermata |
-  c4 bes2.~ |
+  c1 |
+  bes1~ |
   bes1 |
-  r2 ees4 aes |
+  r2 ees4 aes\startTextSpan |
   g2 g4 g |
   f ees g4. f8 |
   ees1~ |
-  ees1 |
+  ees1\stopTextSpan |
 }
 
 upper = \relative c' {
@@ -298,17 +299,18 @@ upper = \relative c' {
   >>
   <g bes d>2 <g bes d> |
   <aes c ees>2 <aes c ees> |
-  <bes ees f>2\> <bes ees f> |
-  <bes d f> <bes d f>\! |
-  <ees bes'>2\p <ees bes'> |
-  <ees bes'>2\< <ees bes'> |
-  <ees c'>4 <ees bes'>2. |
-  <d g>2 <c ees>\! |
-  <c f>4\f <c ees>~ <c ees>4. r8 |
+  <bes ees f>2 <bes ees f> |
+  <bes d f> <bes d f> |
+  <bes ees bes'>2 <bes ees bes'> |
+  <bes ees bes'>2 <bes ees bes'> |
+  <bes ees bes'>2 <bes ees bes'> |
+  <d g>2 <c ees> |
+  <c f>4 <c ees>~ <c ees>4. r8 |
   <c ees>8\staccato r <bes ees>2.\fermata |
-  <aes c>4\mf <aes bes>2.~ |
-  bes1~ |
-  bes2 <bes ees> |
+  <aes c>1\mp |
+  <bes d>1~ |
+  <bes d>1~ |
+  bes2\tempo \markup { \italic rit } <bes ees>\p |
   <bes ees g>2 <bes ees g> |
   <bes ees f>2 <bes ees f> |
   <<
@@ -414,67 +416,32 @@ lower = \relative c' {
     }
   >>
   <aes c>2. <aes, aes'>4 |
-  <bes bes'>2. bes,8 bes' |
-  <<
-    {
-      \voiceOne
-      r4 bes2. |
-    }
-    \new Voice {
-      \voiceTwo
-      bes,1 |
-    }
-  >>
+  <bes bes'>2. bes8 bes,~ |
 
   % Verse 4
-  <<
-    {
-      \voiceOne
-      r4 ees2 ees4 |
-      r4 bes'2 bes4 |
-      r4 ees2 ees4 |
-      r4 ees2 ees4 |
-      r4 d2 d4 |
-      r4 ees2 ees4 |
-      r f2 f4 |
-      r f2 f4 |
-    }
-    \new Voice {
-      \voiceTwo
-      ees,,1 |
-      bes'1 |
-      ees1 |
-      ees1 |
-      g1 |
-      aes1 |
-      bes1 |
-      bes1 |
-    }
-  >>
-  ees4 bes' aes c |
-  ees,4 bes'2 bes4 | 
-  <aes, aes'>2 <g g'> |
-  <b g'>2 <c g'> |
-  <aes aes'>2 aes8 aes' aes,\staccato r |
+  bes4 bes'2 bes4 |
+  ees,,4 ees'2 ees4 |
+  bes4 bes'2 bes4 |
+  ees,,4 ees'2 ees4 |
+  ees,4 ees'2 ees4 |
+  g,4 g'2 g4 |
+  aes,4 aes'2 aes4 |
+  bes,4 bes'2 bes8 bes,~ |
+  bes4 bes'2 bes4 |
+  ees,,4 ees' aes, aes' |
+  ees,4 ees'2 ees4 | 
+  aes,4 aes'2 aes4 |
+  b4 g' c, g' |
+  <aes, aes'>2 aes8 aes' aes,\staccato r |
   <aes aes'>8\staccato r <g ees'>4 g8 ees' g,4\fermata |
-  <f f'>2 <bes f'> |
-  <bes f'>2 <bes f'> |
-  <bes f'>2 g |
+  f4 f' f, f' |
+  bes,,4 bes' bes, bes' |
+  bes,1~ |
+  bes2 <g' ees'> |
   bes1 |
   <bes aes'>1 |
-  <<
-    {
-      \voiceOne
-      r2 ees2~  |
-      ees1
-
-    }
-    \new Voice {
-      \voiceTwo
-      ees,1~ |
-      ees1 |
-    }
-  >>
+  <ees, ees'>1~ |
+  <ees ees'>1 |
 }
 
 \score {
