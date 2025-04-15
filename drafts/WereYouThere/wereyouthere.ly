@@ -185,7 +185,7 @@ upper = \relative c' {
     \new Voice {
       \voiceTwo
       <g, bes>2 <aes c>4 <aes c> |
-        <g bes>2\mp <g bes> |
+        <g bes>2 <g bes>\mp |
     }
   >>
 
@@ -208,15 +208,15 @@ upper = \relative c' {
   <c ees>2 <c ees>\! |
   <ees f>2\> <ees f> |
   <d f>2 <d f>\! |
-  <ees bes' ees>2\p <ees aes ees'> |
-  <ees bes' ees> <ees bes' ees> |
-  <ees aes ees'>1 |
+  <ees bes' ees>2\p <ees bes' ees> |
+  <ees bes'> <ees bes'> |
+  <ees bes'>2\< <ees bes'> |
   <d g>2 <c ees> |
-  <c f>1 |
+  <c f>1\!\> |
   <c ees>4 <bes ees>2.\fermata |
   <aes c>4 <aes bes>2.~ |
   bes1 |
-  r2 <bes ees> |
+  r2\! <bes ees> |
   <bes ees g>2 <bes ees g> |
   <ees f>2 <ees f> |
   <<
@@ -233,7 +233,7 @@ upper = \relative c' {
   >>
 
   % Verse 3
-  <g bes>2 r |
+  r1 |
   <bes' ees g>1 |
   <bes ees f>1 |
   <<
@@ -373,8 +373,7 @@ lower = \relative c' {
   aes, g ees' g\fermata |
   <f, f'>2 <bes f'> |
   <bes f'>2 <bes f'> |
-  <bes f'>2 <g ees' g> |
-  % bes, f' bes f |
+  r2 <g ees' g> |
   ees4 bes' ees bes |
   bes f' bes f |
   ees, bes' ees bes |
