@@ -11,6 +11,7 @@ My home for the music I write. My music can be used and copied for non-commercia
 - [I Need Thee Every Hour](https://github.com/ahilton5/music/blob/main/finished/INeed/ineed.pdf), for piano.
 - [The Holly and The Ivy](https://github.com/ahilton5/music/blob/main/finished/TheHolly/theholly.pdf), for piano.
 - [O My Father](https://github.com/ahilton5/music/blob/main/finished/OMyFather/omyfather.pdf), for voice and piano.
+- [Were You There](https://github.com/ahilton5/music/blob/main/finished/WereYouThere/wereyouthere.pdf), for voice and piano.
 
 ## Original Compositions
 - [Songs Unsung](https://github.com/ahilton5/music/blob/main/finished/SongsUnsung/guitar.pdf), for classical guitar.

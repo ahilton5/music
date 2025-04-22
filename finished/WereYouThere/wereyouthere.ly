@@ -185,7 +185,7 @@ upper = \relative c' {
     \new Voice {
       \voiceTwo
       <g, bes>2 <aes c>4 <aes c> |
-        <g bes>2 <g bes>\mp |
+        <g bes>2 <g bes>\mf |
     }
   >>
 
@@ -209,7 +209,7 @@ upper = \relative c' {
   <ees f>2\> <ees f> |
   <d f>2 <d f>\! |
   <ees bes' ees>2\p <ees bes' ees> |
-  <ees bes'> <ees bes'> |
+  <ees bes' ees> <ees bes'> |
   <ees bes'>2\< <ees bes'> |
   <d g>2 <c ees> |
   <c f>1\!\> |
